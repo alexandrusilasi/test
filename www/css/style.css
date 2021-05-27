@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body
+{
+    background: #fff !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+img.logo
+{
+    width: 100%;
+    max-width: 200px;
+    padding: 5px;
+}
+.indigo-skin .navbar
+{
+    background: #a10b00 !important;
+}
+main div.container-fluid
+{
+    min-height: calc(100vh - 120px);
+    background: url(../img/loading.gif);
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-position: 50%;;
+}
+button.btn-primar
+{
+    background: #a10b00 !important;
+    margin-left: 0;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 30px;
+    line-height: normal !important;
+    display: flex;
+    align-items: center;
+}
+.indigo-skin .navbar.double-nav a
+{
+    color: #fff !important;
+}
+a.button-collapse
+{
+    width: 30px;
+}
+a.button-collapse span
+{
+    height: 2px;
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+a.collapsible-header
+{
+    font-size: 17px;
+}
+div.card
+{
+    margin-bottom: 15px;
+    box-shadow: none !important;
+}
+div.card div.card-body
+{
+    text-align: left;
+    padding: 12px !important;
+}
+div.card div.card-body h5.card-title
+{
+    font-size: 18px !important;
+    font-weight: bold !important;
+    color: #404040;
+    opacity: 0.95;
+    margin-bottom: 5px !important;
+}
+div.card div.card-body span.date
+{
+    display: block;
+    color: #404040;
+    font-size: 12px;
+}
+div.card div.card-body span.date i
+{
+    margin-right: 5px;
+}
+div.card div.card-body p.card-text
+{
+    font-size: 16px !important;
+}
+div.card div.card-body a.readmore
+{
+    margin:0 !important;
+    padding: .375rem .75rem !important;
+}
+div.card div.img-wrapper
+{
+    position: relative;
+}
+div.card div.img-wrapper span.cat
+{
+    letter-spacing: 1px;
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background: #0776c6;
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 4px 10px;
+}
+div.content img
+{
+    width: 100%;
+    height: auto !important;
+}
+.side-nav .logo-wrapper
+{
+    border: 0;
+}
+div.cnt div.content strong
+{
+    font-weight: bold !important;
+}
