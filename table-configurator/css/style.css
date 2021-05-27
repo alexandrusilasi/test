@@ -1,0 +1,75 @@
+/* Your custom styles */
+
+div.wrapper-comanda-auditori-energetici
+{
+    max-width: 700px;
+    margin: auto;
+}
+div.wrapper-comanda-auditori-energetici h5
+{
+    background-color: rgba(23, 24, 56, 1) !important;
+    text-transform: uppercase !important;
+}
+div.wrapper-comanda-auditori-energetici input:not([type="radio"])
+{
+    width: 100%;
+}
+div.wrapper-comanda-auditori-energetici div.form-check
+{
+    text-align: left;
+    padding-left: 0 !important;
+}
+div.wrapper-comanda-auditori-energetici div.col-md-6.md-form h6
+{
+    margin: 0;
+}
+div.wrapper-comanda-auditori-energetici ul
+{
+    display: flex;
+    margin:0;
+    padding:0;
+    flex-wrap: nowrap;
+}
+div.wrapper-comanda-auditori-energetici ul li
+{
+    display: inline-block;
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+div.wrapper-comanda-auditori-energetici ul li a
+{
+    padding: 20px !important;
+}
+form button[type="submit"],
+form button[type="submit"]:hover
+{
+    color: #a6c !important;
+    border-color: #a6c !important;
+    font-size: 20px;
+}
+
+div.tab-content div#autentificare,
+div.tab-content div#inregistrare
+{
+    margin-top: 20px;
+}
+ul.nav.md-pills
+{
+    margin:0 !important;
+    padding:0 !important;
+}
+ul.nav.md-pills > li
+{
+    display: block;
+    margin-bottom: 0 !important;
+}
+label.form-check-label
+{
+    font-size: 1rem;
+    font-weight: 300 !important;
+}
+div.cereri
+{
+    border: 1px solid red;
+}
